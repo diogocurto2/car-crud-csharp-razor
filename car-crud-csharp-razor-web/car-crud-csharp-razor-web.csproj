@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>car_crud_csharp_razor_web</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\car-crud-csharp-razor-infra\car-crud-csharp-razor-infra.csproj" />
+    <ProjectReference Include="..\car-crud-csharp-razor-model\car-crud-csharp-razor-model.csproj" />
+    <ProjectReference Include="..\car-crud-csharp-razor-services\car-crud-csharp-razor-services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
+</Project>
