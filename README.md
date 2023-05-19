@@ -1,6 +1,6 @@
-% The Coding Assessment
+# The Coding Assessment
 
-# Instructions for Run
+## Instructions for Run
 For run this Solution, execute the project car-crud-csharp-razor-web.
 
 
@@ -18,9 +18,9 @@ This project is devide into:
 4 - car-crud-csharp-razor-infra
 	Objective: store the cars repository and execute repository functions
 
-# The Coding Assessment 1:
+## The Coding Assessment 1:
 
-## Instructions:
+### Instructions:
 
 C#/Razor
 You have a model that is a car. You want to define its make, model, year, doors, colors, price. Build a simple service that contains some basic CRUD operations against a list of cars:
@@ -36,9 +36,9 @@ private List<Car> cars = new (){
 Build a simple page markup with where you display the car information and allow the user to guess the price. If within 5,000 of the guess, display a great job message in green. 
 
 
-# The Coding Assessment 2:
+## The Coding Assessment 2:
 
-## Instructions:
+### Instructions:
 SQL
 You have three different tables
 A Customer Table with FirstName, LastName, Age, Occupation, MartialStatus, PersonID
@@ -47,12 +47,10 @@ An Orders Table with OrderID, PersonID, DateCreated, MethodofPurchase
 
 An Orders Details table with OrderID, OrderDetailID, ProductNumber, ProductID, ProductOrigin
 
-
-
 Please return a result of the customers who ordered product ID = 1112222333 and return
 FirstName and LastName as full name, age, orderid, datecreated, MethodOfPurchase as Purchase Method, ProductNumber and ProductOrigin
 
-## Initial Resolution:
+### Initial Resolution:
 You need to create this tables using this SQL commands:
 
 Customer Table:
